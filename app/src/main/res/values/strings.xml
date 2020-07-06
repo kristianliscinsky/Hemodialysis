@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- main menu strings, used in menu_main.xml -->
+    <string name="app_name">My Application</string>
+    <string name="settings">Nastavenia</string>
+    <string name="history">História</string>
+    <string name="about">O aplikácií</string>
+
+    <string name="predvolby">Predvoľby</string>
+    <string name="table">Tabuľka</string>
+
+
+    <!-- errors -->
+    <string name="edit_text_empty">Je požadované zadať množstvo</string>
+    <string name="not_editable">Nemožno modifikovať</string>
+    <string name="item_already_exists">Potravina s daným menom už existuje</string>
+    <string name="invalid_number_format">Zle zadané číslo</string>
+
+    <!-- success -->
+    <string name="successful_submit">Položka bola pridaná</string>
+    <string name="successful_delete">Položka bola odstránená</string>
+    <string name="ok">OK</string>
+
+    <!-- Strings for Dialogs -->
+    <string name="deleteDialogTitle">Odstrániť položku</string>
+    <string name="deleteDialogMessage">Ste si istý, že chcete odstrániť položku?</string>
+
+    <!-- strings used in searchfing activities SearchDrinkActivity and SearchFoodActivity -->
+    <string name="delete">Odstrániť</string>
+    <string name="title_context_menu">Vyberte akciu</string>
+
+    <!-- strings with activities names, used in toolbar_secondary.xml -->
+    <string name="addFoodActivity">Pridaj potravinu</string>
+    <string name="addDrinkActivity">Pridaj nápoj</string>
+    <string name="searchFoodActivity">Vyhľadaj potravinu</string>
+    <string name="searchDrinkActivity">Vyhľadaj nápoj</string>
+    <string name="addMealActivity">Pridaj hotové jedlo</string>
+    <string name="overviewOfEatenFoodsActivity">Prehľad skonzumovaných potravín</string>
+    <string name="addOwnFoodActivity">Pridaj vlastnú potravinu</string>
+    <string name="addOwnDrinkActivity">Pridaj vlastný nápoj</string>
+    <string name="detailOfFoodActivity">Detaily</string>
+
+    <!-- popup menu strings, used in popup_menu_add_food.xml -->
+    <string name="food">Potravina</string>
+    <string name="water">Voda</string>
+    <string name="meal">Hotové jedlo</string>
+
+    <!-- strings for navigation view, used in MainActivity.java -->
+    <string name="openNavDraw">Navigation Drawer Open</string>
+    <string name="closeNavDraw">Navigation Drawer Close</string>
+
+    <!-- Button name, used in MainActivity.java onCreate() -->
+    <string name="prehlad_skonzumovanych_potravin">Prehľad skonzumovaných potravín</string>
+
+    <!-- LiquidStandards enum -->
+    <string name="ml_1">1 ml</string>
+    <string name="cup">šálka (200 ml)</string>
+    <string name="cup_small">malá šálka (100 ml)</string>
+    <string name="mug_large">hrnček (300 ml)</string>
+    <string name="mug_small">malý hrnček (200 ml)</string>
+    <string name="glass_small">malý pohár (200 ml)</string>
+    <string name="glass_large">veľký pohár (300 ml)</string>
+    <string name="glass_whiskey">pohár na whiskey (150 ml)</string>
+    <string name="glass_wine">pohár na víno (250 ml)</string>
+    <string name="shot_small">malý panák (40 ml)</string>
+    <string name="shot_large">veľký panák (50 ml)</string>
+    <string name="bowl_small">malá miska (200 ml)</string>
+    <string name="bowl_large">veľká miska (400 ml)</string>
+    <string name="plate">tanier (300 ml)</string>
+    <string name="krigl">krigl (500 ml)</string>
+    <string name="sip">lok (50 ml)</string>
+
+    <!-- Strings for AddFoodActivity.java -->
+
+    <!-- Strings for AddOwnFoodActivity.java -->
+    <string name="liquid">Tekutina</string>
+    <string name="sodium">Sodík</string>
+    <string name="potassium">Draslík</string>
+    <string name="phosphorus">Fosfor</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="mlPer100g">ml/100 g</string>
+    <string name="mgPer100g">mg/100 g</string>
+    <string name="insert_name_of_food">Zadajte názov potraviny</string>
+
+    <!-- Strings for AddOwnDrinkActivity.java -->
+    <string name="insert_name_of_drink">Zadajte názov nápoja</string>
+
+    <!-- SearchFoodActivity -->
+    <string name="not_existing_items">0 nájdených položiek</string>
+    <string name="search_item">Vyhľadaj položku</string>
+    <string name="showDetails">Zobraziť detaily</string>
+
+    <!-- Strings for AddDrinkActivity.java -->
+    <string name="drink">Nápoj</string>
+    <string name="quantity">Množstvo</string>
+    <string name="date">Dátum</string>
+    <string name="time">Čas</string>
+    <string name="submit">POTVRDIŤ</string>
+    <string name="one">1</string>
+    <string name="x">x</string>
+
+    <!-- Strings for DetailOfFoodActivity.java -->
+    <string name="nameOfFoodItem">Názov položky</string>
+
+
+    <string name="title_activity_settings">Nastavenia</string>
+    <!-- Preference Titles -->
+    <string name="personal_info">Osobné údaje</string>
+    <string name="specific_info">Špecifické informácie</string>
+
+    <!-- Messages Preferences -->
+    <string name="username">Meno</string>
+    <string name="surname">Priezvisko</string>
+    <string name="height">Výška v [cm]</string>
+    <string name="dry_weight">Suchá váha v [kg]</string>
+    <string name="after_HD_weight">Váha po hemodialýze v [kg]</string>
+    <string name="viazace_fosfatov">Užívanie viazačov fosfátov</string>
+    <string name="max_UF">Maximálna hodnota ultrafiltrácie v [ml/h]</string>
+    <string name="actual_potassium_value">Aktuálna hodnota draslíka v [mmol/l]</string>
+    <string name="actual_phosphorus_value">Aktuálna hodnota fosforu v [mmol/l]</string>
+    <string name="diureza">Diuréza v [ml]</string>
+    <string name="number_of_hemodialysis_perWeek">Počet hemodialýz za týždeň</string>
+    <string name="hemodialysis1_day">1. hemodialýza, deň</string>
+    <string name="hemodialysis2_day">2. hemodialýza, deň</string>
+    <string name="hemodialysis3_day">3. hemodialýza, deň</string>
+    <string name="hemodialysis1_time">1. hemodialýza, čas</string>
+    <string name="hemodialysis2_time">2. hemodialýza, čas</string>
+    <string name="hemodialysis3_time">3. hemodialýza, čas</string>
+
+
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

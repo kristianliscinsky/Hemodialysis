@@ -1,0 +1,127 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/personal_info">
+
+        <EditTextPreference
+            app:defaultValue="username"
+            app:key="username"
+            app:title="@string/username"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="usersurname"
+            app:key="surname"
+            app:title="@string/surname"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="180"
+            app:key="height"
+            app:title="@string/height"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="80"
+            app:key="dry_weight"
+            app:title="@string/dry_weight"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="80"
+            app:key="after_HD_weight"
+            app:title="@string/after_HD_weight"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/specific_info">
+
+        <EditTextPreference
+            app:defaultValue="0"
+            app:key="diureza"
+            app:title="@string/diureza"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="viazace_fosfatov"
+            app:summaryOff="@string/no"
+            app:summaryOn="@string/yes"
+            app:title="@string/viazace_fosfatov" />
+
+        <EditTextPreference
+            app:defaultValue="900"
+            app:key="max_UF"
+            app:title="@string/max_UF"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="actual_phosphorus_value"
+            app:title="@string/actual_phosphorus_value"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="actual_potassium_value"
+            app:title="@string/actual_potassium_value"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/number_of_hemodialysis_perWeek"
+            app:defaultValue="1"
+            app:entries="@array/number_of_hemodialysis_perWeek_entries"
+            app:entryValues="@array/number_of_hemodialysis_perWeek_values"
+            app:key="number_of_hemodialysis_perWeek"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis1_day"
+            app:defaultValue="2"
+            app:entries="@array/days_in_week_entries"
+            app:entryValues="@array/days_in_week_values"
+            app:key="hemodialysis1_day"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis1_time"
+            app:defaultValue="1"
+            app:entries="@array/time_entries"
+            app:entryValues="@array/time_values"
+            app:key="hemodialysis1_time"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis2_day"
+            app:defaultValue="4"
+            app:entries="@array/days_in_week_entries"
+            app:entryValues="@array/days_in_week_values"
+            app:key="hemodialysis2_day"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis2_time"
+            app:defaultValue="1"
+            app:entries="@array/time_entries"
+            app:entryValues="@array/time_values"
+            app:key="hemodialysis2_time"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis3_day"
+            app:defaultValue="6"
+            app:entries="@array/days_in_week_entries"
+            app:entryValues="@array/days_in_week_values"
+            app:key="hemodialysis3_day"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/hemodialysis3_time"
+            app:defaultValue="1"
+            app:entries="@array/time_entries"
+            app:entryValues="@array/time_values"
+            app:key="hemodialysis3_time"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

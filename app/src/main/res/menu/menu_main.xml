@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item android:title="@string/predvolby">
+        <menu>
+            <item
+                android:id="@+id/navigation_language"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Jazyk"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_shows"
+                android:icon="@drawable/ic_eye"
+                android:title="Zobrazenie"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/history"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_tips"
+        android:icon="@drawable/ic_tips"
+        android:title="Tipy"
+        app:showAsAction="never" />
+
+    <item android:title="@string/table">
+        <menu>
+            <item
+                android:id="@+id/navigation_foodTable"
+                android:icon="@drawable/ic_grocery"
+                android:title="@string/food"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_drinkTable"
+                android:icon="@drawable/ic_drink"
+                android:title="@string/drink"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_mealTable"
+                android:icon="@drawable/ic_meal"
+                android:title="@string/meal"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+    <item android:title="Nápoveda">
+        <menu>
+            <item
+                android:id="@+id/navigation_welcom"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Úvod"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_about"
+                android:icon="@drawable/ic_local_offer_black_24dp"
+                android:title="O aplikácií"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Spätná väzba"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/navigation_disclaimer"
+                android:icon="@drawable/ic_disclaimer"
+                android:title="Prehlásenie"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
